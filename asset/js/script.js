@@ -9,5 +9,5 @@ for (let i = -1722; i <= 2756 ; i++) {
 }
 
 message += '</ul>';
-alert('Aye !');
+console.log('Aye !');
 document.write(message);
