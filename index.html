@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JavaScipt</title>
-    <script src="asset/js/functions/isLeapYear.js"></script>
+    <script src="asset/js/functions/vide.js"></script>
 </head>
 <body>
 
@@ -12,17 +12,18 @@
 </script>
 <script src="pluie.js" type="text/javascript"></script>
 
-<script>
-    let reponse = prompt('Quelle année ?');
+    <form>
+        <label>Nom</label>
+        <input type="text" name="nom" id="nom">
 
-    if (isLeapYear(reponse)) {
-        alert('Wesh');
-    }
+        <label>Prénom</label>
+        <input type="text" name="prenom" id="prenom">
 
-    else  {
-        alert('Not wesh !');
-    }
-</script>
+        <label>Email</label>
+        <input type="text" name="email" id="email">
+
+        <button onclick="valider()">Cliquez moi</button>
+    </form>
 
 </body>
 </html>
